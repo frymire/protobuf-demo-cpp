@@ -20,6 +20,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\ProtobufDemo1\addressbook.pb.cc" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="$(MSBuildThisFileDirectory)..\AddPerson\Addresses.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)..\Addresses.txt" />
   </ItemGroup>
 </Project>
