@@ -14,12 +14,14 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\ProtobufDemo1\addressbook.pb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)addressbook.pb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PersonPlus.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\ProtobufDemo1\addressbook.pb.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)addressbook.pb.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PersonPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="$(MSBuildThisFileDirectory)..\Addresses.txt" />
+    <None Include="$(MSBuildThisFileDirectory)addressbook.proto" />
   </ItemGroup>
 </Project>

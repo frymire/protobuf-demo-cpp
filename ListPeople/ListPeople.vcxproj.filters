@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ProtobufDemo1\list_people.cc">
+    <ClCompile Include="list_people.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
